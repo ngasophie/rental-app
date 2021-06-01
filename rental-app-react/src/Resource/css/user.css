@@ -1,0 +1,124 @@
+.user-form{
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+.user-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+.user-form  .form-box{
+    width: 380px;
+    height: 550px;
+    background-color: #FFF;
+    text-align: center; 
+    flex-direction: column;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.user-form  .form-box .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user-form  .form-box .btn-box{
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+    margin-top: 2rem;
+}
+.user-form  .form-box .btn-box .btn-box-color{
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+    border-radius: 1rem;
+    background-color: #EFEFEF;
+}
+.user-form  .form-box .btn-box .btn-box-color button{
+   width: 50%;
+   height: 100%;
+   border: none;
+   outline: none;
+   border-radius: 1rem;
+}
+.user-form .form-box .btn-box .btn-box-color .active{
+  background-color: #FF9613;
+}
+
+.user-form  .form-box .icon-box{
+    margin-bottom: 2rem;
+}
+.user-form  .form-box img{
+    width: 2rem;
+    border-radius: 50%;
+    margin: .5rem;
+}
+.user-form  .form-box .form input{
+   width:250px;
+   height: 40px;
+   border: none;
+   outline: none;
+   border-bottom: 1px solid  #4b4a4a;
+}
+.user-form  .form-box .form .check-box-input{
+   width:15px;
+   height: 15px;
+   border: none;
+   outline: none;
+   border-bottom: 1px solid  #4b4a4a;
+   font-size: small;
+}
+.user-form  .form-box i{
+  text-align: right;
+  margin-top: .5rem;
+  margin-right: 1rem;
+  font-size: 1.3rem;
+}
+.user-form  .form-box .form small{
+  text-align: right!important;
+  color:red;
+
+}
+/* .error-disable{
+    display: none;
+} */
+.user-form  .form-box .form .check-box{
+  width: 100%;
+  color:#4b4a4a;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  text-align: left;
+  padding-left: 7.5rem;
+}
+.user-form  .form-box .form .btn-submit{
+    width: 100px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    background-color:  #FF9613;
+}
+.register-nav{
+    margin-top: 1rem;
+    font-size: .8rem;
+}
+.hight-light:hover{
+    color:#40A3E6;
+}
+.fas.fa-times.left{
+    text-align: right;
+}
+.close-left{
+    text-align: right;
+}

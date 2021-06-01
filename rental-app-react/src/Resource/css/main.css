@@ -1,0 +1,199 @@
+/* main */
+.body-content{
+    margin-top: 1rem;
+}
+.body-content .body-title{
+    background-image: url('http://localhost:4001/images/social_icon/bg-home-5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#FFF;
+    position: relative;
+}
+.body-title-fade{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+}
+.body-content .body-title .body-title-text{
+    text-align: center;
+    position: absolute;
+}
+.body-content .recommend .recommend-text{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 1rem;
+}
+.body-content .recommend .recommend-text >h2{
+    color:#24355A
+}
+.body-content .recommend .recommend-text >h5{
+    color:#767676
+}
+.body-content .recommend .recommend-text >p{
+    font-size: 1rem;
+}
+.body-content .recommend-posts .posts{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.body-content .recommend-posts .container{
+   width: 100%;
+   padding: 0;
+   margin: auto;
+}
+.body-content .recommend-posts .posts .post{
+    background-color: #FFF;
+    position: relative;
+    height: 18rem;
+    margin: .5rem;
+}
+.body-content .recommend-posts .posts .post img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease;
+}
+.body-content .recommend-posts .posts div{
+    overflow: hidden;
+}
+.body-content .recommend-posts .posts .post img:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.body-content .recommend-posts .posts .post .post-infor{
+    position: absolute;
+    bottom: 0rem;
+    left:0rem;
+    color: #FFF;
+    width: 100%;
+    height: 30%;
+    font-size: .8rem;
+    font-weight: bold;
+}
+.body-content .recommend-posts .posts .post .post-fade{
+    top:0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #858181;
+    opacity: 0.6;
+    border-radius: 0 0 .5rem .5rem;
+    transition: all 1s ease;
+}
+.body-content .recommend-posts .posts .post .post-infor .post-infor-content{
+    padding-left: 1rem;
+    padding-top: .5rem;
+    position: relative;
+}
+.body-content .recommend-posts .posts .post .post-infor .post-infor-content i{
+   color:yellow;
+}
+
+.top-accomodate{
+    font-size: .9rem;
+    color:#767676;
+}
+/* .top-accomodate .details{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+/* .top-accomodate .details div{
+    padding-left: 1rem;
+} */
+
+
+.body-content .recent-post .recent-post-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+}
+.body-content .recent-post .recent-post-list .recent-post-content img{
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    height:30vh;
+}
+.body-content .recent-post .recent-post-list .recent-post-text{
+    width: 80%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin: auto;
+    color:#666666;
+    font-size: .9rem;
+    margin: auto;
+   
+}
+.body-content .recent-post .recent-post-list .recent-post-content .title{
+   font-size: 1.2rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   color: #24355A;
+   font-weight: bold;
+}
+.body-content .recent-post .recent-post-list .recent-post-content .description{
+   font-size: .9rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   border-bottom: 1px solid #9c9696 ;
+}
+.body-content .recent-post .recent-post-list .recent-post-content .details .post-infor-content{
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   border-bottom: 1px solid #9c9696 ;
+}
+.body-content .recent-post .recent-post-list .recent-post-content .details button{
+   border-radius: 0!important;
+   color:#FFFFFF;
+   background-color: #01BEA0;
+}
+.body-content .body-title .search-box{
+    width: 90vw;
+    max-height: 100vh;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: .5rem;
+    margin-top: 1rem;
+}
+.body-content .body-title .search-box select{
+    width: 15%;
+    background-color: #FFF;
+    min-height: 8vh;
+    max-height: 20vh;
+    border: 1px solid #D4D4D4;
+    border-radius: .3rem;
+    outline: none;
+}
+.body-content .body-title .search-box button{
+    width: 15%;
+    background-color: #FFF;
+    min-height: 8vh;
+    max-height: 20vh;
+    border: 1px solid #D4D4D4;
+    border-radius: .3rem;
+    outline: none;
+    background-color: #687389;
+    color:#FFF;
+    font-weight: bold;
+}
+.body-content .body-title .search-box button:hover{
+    
+    background-color: #24355A;
+}
+
+
+/* main */
+/* view port less than 750px */

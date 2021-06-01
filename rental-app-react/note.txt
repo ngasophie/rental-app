@@ -1,0 +1,3 @@
+Redux:
+	- Mỗi khi store thay đổi sẽ render lại tất cả connect đến store
+	- Không nhận sự thay đổi của cha sau khi connect( đoán thế)

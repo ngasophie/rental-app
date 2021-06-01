@@ -1,0 +1,203 @@
+
+@media only screen and (min-width: 1620px){
+    .toggle-collapse{
+        width: 80%  ;
+    }
+    .container{
+        max-width: 1400px!important;
+    }
+    /* .nav .nav-menu, .nav .nav-items{
+        flex-direction: column!important ;
+
+    } */
+    /* .nav .toggle-collapse{
+        display: initial;
+    } */
+    main .site-content{
+        grid-template-columns: repeat(3,1fr) ;
+    }
+    footer.footer .container{
+        grid-template-columns:repeat(3,1fr) ;
+        /* justi/fy-content: center; */
+    }
+    .body-content .recommend-posts .posts{
+        grid-template-columns: repeat(3,1fr) ;
+    }
+    .body-content .recommend-posts .container{
+        margin: auto ;
+    }
+    .body-content .top-accomodate .card-list{
+        grid-template-columns: repeat(3,1fr) ;
+    }
+    .body-content .top-accomodate .card-list .card img{
+        margin: auto ;
+    }
+    .body-content .top-accomodate .container{
+        margin: auto ;
+    }
+    .body-content .recent-post .recent-post-list{
+        grid-template-columns: repeat(3,1fr) ;
+    }
+    .body-content .recent-post .container{
+        margin: auto ;
+    }
+}
+@media only screen and (max-width: 1130px){
+    .toggle-collapse{
+        width: 80%  ;
+    }
+    /* .nav .nav-menu, .nav .nav-items{
+        flex-direction: column!important ;
+
+    } */
+    /* .nav .toggle-collapse{
+        display: initial;
+    } */
+    main .site-content{
+        grid-template-columns: repeat(2,1fr) ;
+    }
+    footer.footer .container{
+        grid-template-columns:repeat(2,1fr) ;
+        /* justi/fy-content: center; */
+    }
+    .body-content .recommend-posts .posts{
+        grid-template-columns: repeat(2,1fr) ;
+    }
+    .body-content .recommend-posts .container{
+        margin: auto ;
+    }
+    .card-list{
+        grid-template-columns: repeat(2,1fr) ;
+    }
+     .card-list .card img{
+        margin: auto ;
+    }
+    .body-content .top-accomodate .container{
+        margin: auto ;
+    }
+    .body-content .recent-post .recent-post-list{
+        grid-template-columns: repeat(2,1fr) ;
+    }
+    .body-content .recent-post .container{
+        margin: auto ;
+    }
+    .details-page .container{
+        grid-template-columns: 100%;
+    }
+     .aside-right .owner-infor{
+        margin-top: 1rem;
+        
+    }
+     .aside-right .recent-post-content{
+        grid-template-columns: 30% 70%;
+        grid-gap:1rem;
+    }
+    .list-post-page .container .list-page-body{
+        grid-template-columns: 100%;
+
+    }
+    .carousel-list{
+        grid-template-columns: 50% 50%;
+    }
+    .list-post-page .container .card-list{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width: 750px){
+    .nav .nav-menu, .nav .nav-items{
+        flex-direction: column!important ;
+    }
+    .toggle-collapse{
+        display: initial!important;
+    }
+    main .site-content{
+        grid-template-columns: 100% ;
+    }
+    footer.footer .container{
+        grid-template-columns: 100%;
+        text-align: center!important;
+        /* justi/fy-content: center; */
+    }
+    .flex-row{
+        justify-content: center!important;
+    }
+    .body-content .recommend-posts .posts{
+        grid-template-columns: 100% ;
+    }
+    .body-content .recommend-posts .container{
+        margin: auto ;
+    }
+     .card-list{
+        grid-template-columns: 100% ;
+    }
+    .card-list .card img{
+        margin: auto ;
+    }
+    .body-content .top-accomodate .container{
+        margin: auto ;
+    }
+    .body-content .recent-post .recent-post-list{
+        grid-template-columns: 100% ;
+    }
+    .body-content .recent-post .container{
+        margin: auto ;
+    }
+    .toggle-collapse{
+        width: 80%  ;
+    }
+    .body-content .body-title .search-box{
+        flex-direction: column;
+        min-height: 40vh;
+        max-height: 120vh;
+        width: 60%;
+        margin: auto;
+        font-size: .8rem;
+        
+    }
+    .body-content .body-title .search-box select{
+        width: 80%;
+        background-color: #FFF;
+        min-height: 5vh;
+        max-height: 20vh;
+        border: 1px solid #D4D4D4;
+        border-radius: .3rem;
+        outline: none;
+        margin-top: 1rem;
+    }
+    .body-content .body-title .search-box button{
+        width: 50%;
+        min-height: 5vh;
+        max-height: 20vh;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .details-page .container{
+        grid-template-columns: 100%;
+    }
+    .details-page .container .aside-right .owner-infor{
+        margin-top: 1rem;
+        
+    }
+    .details-page .container .aside-right .recent-post-content{
+        grid-template-columns: 30% 70%;
+        grid-gap:1rem;
+        text-align: center;
+    }
+    .list-post-page .container .card-list{
+        grid-template-columns: 100%;
+
+    }
+    .dashboard-page{
+        grid-template-columns: 100%;
+    }
+    .dashboard-page .top .toggle-collapse{
+        /* position: absolute; */
+        left:1rem;
+    }
+
+    .carousel-list{
+        grid-template-columns: 100%;
+    }
+
+}
+

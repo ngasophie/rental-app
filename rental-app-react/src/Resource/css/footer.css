@@ -1,0 +1,72 @@
+/* ----------footer */
+footer.footer{
+    height: 100%;
+    background-color: black;
+    position: relative;
+}
+footer.footer .container{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap:1rem
+    /* 1fr 1fr 1fr 1fr/ repeat(4,1fr) */
+
+}
+footer.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem .9rem;
+}
+footer.footer .container p{
+    color:#a2a5a8
+}
+footer.footer .container .about-us h2{
+    color:#FFF
+}
+footer.footer .container h2{
+    color:#FFF
+}
+footer.footer .newsletter .form-element{
+    background-color: black;
+    display: inline-block;
+}
+footer.footer .newsletter .form-element input{
+    padding: .5rem .7rem;
+    border: 1px solid lightblue;
+    background-color: transparent;
+    color:#FFF;
+    font-size: 1rem;
+    width: 74%;
+}
+footer.footer .newsletter .form-element span{
+    background-color: lightblue;
+    padding: .5rem .7rem;
+    cursor: pointer;
+}
+footer.footer .instagram div >img{
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    margin: .3rem .4rem;
+}
+footer.footer .follow div i{
+    color:#FFF;
+    padding :.4rem
+}
+footer.footer h4{
+    color:#a2a5a8
+}
+.rights{
+    justify-content: center;
+}
+footer.footer .move-up{
+    position: absolute;
+    right:6%;
+    top:50%
+}
+footer.footer .move-up span{
+    color:lightblue;
+}
+footer.footer .move-up span:hover{
+    cursor: pointer;
+    color:white
+}

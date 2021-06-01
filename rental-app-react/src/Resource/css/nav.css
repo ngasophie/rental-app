@@ -1,0 +1,103 @@
+.nav a{
+    text-decoration: none;
+}
+:root{
+    /* theme color */
+    --text-gray: #3f4954
+}
+.text-grey{
+    color: var(--text-gray)
+}
+/* .container{
+    margin: 0 5vw ;
+    overflow: hidden;
+} */
+/* navigation */
+.nav{
+    background: #ffffff;
+    padding: 0 2rem!important;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out ;
+    margin-bottom: 1rem;
+}
+.nav .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    cursor: pointer;
+}
+p{
+    font-size: 1rem;
+}
+C
+h1{
+    font-size: 2.5rem;
+}
+button.btn{
+    border:none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+.flex-row{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nav .nav-menu{
+    width: 100%;
+    justify-content: space-between;
+}
+.nav .toggle-collapse{
+    position: absolute;
+    top:0%;
+    width: 90%;
+    cursor: pointer;
+    display: none;
+}
+.nav .toggle-collapse .toggle-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+}
+.nav .toggle-collapse .toggle-icons i{
+   font-size: 1.4rem;
+   color: var(--text-gray);
+}
+.nav.nav-collapse{
+    height: 24rem;
+}
+.nav .nav-items{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+.nav .nav-items .nav-link{
+    padding: .5rem 1rem 1rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+}
+.nav .nav-items .nav-link:hover{
+    background-color: #093863!important;
+    color:#fff!important;
+}
+.nav .nav-items .nav-link:hover a{
+    color:#fff!important;
+}
+.nav .social{
+    padding: 1.2rem 0;
+}
+.nav .social i{
+    padding: 0.2rem;
+}
+.nav .social i:hover{
+    color:#73d5f3
+}
+/* nav */

@@ -1,0 +1,118 @@
+.details-page{
+    width: 100vw;
+    background-color: #F7F7F7;
+    color:#666666;
+    margin-top: 1rem;
+}
+.details-page .image-box{
+    display: grid;
+    grid-template-columns: 70% 30%;
+   
+}
+.details-page .image-box .img-left{
+    flex-grow: 1;
+}
+.details-page .image-box img{
+    width: 100%;
+    height: 100%;
+}
+.details-page .image-box .img-right img{
+    height: 50%;
+}
+.details-page .container{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 1rem;
+}
+.details-page .container .aside-left .title-box{
+    width: 100%;
+    min-height: 20vh;
+    padding: 1rem;
+}
+.details-page .container .aside-left .title-box .title{
+   font-size: 1.8rem;
+}
+/* .details-page .container .aside-left .title-box .price, .location{
+} */
+.details-page .container .aside-left .des-box{
+    min-height: 20vh;
+   max-height: 100vh;
+   background-color: #FFF;
+   padding: 2rem;
+   box-shadow: 0 0 11px rgba(33,33,33,.2); 
+   margin-bottom: 1rem;
+}
+.details-page .container .aside-left .title-box .title{
+    color:black;
+    font-size: 1.8rem;
+    border: none;
+    width: 400px;
+}
+.details-page .container .title{
+    color:black;
+   font-size: 1.5rem;
+   margin-bottom: 1rem;
+   border-bottom: 5px solid #274ABB;
+   display: block;
+   width: 100px ;
+   margin-top: 1rem;
+}
+.details-page .container .aside-left .details-box{
+    min-height: 20vh;
+   background-color: #FFF;
+   padding: 2rem;
+   box-shadow: 0 0 11px rgba(33,33,33,.2); 
+   margin-bottom: 1rem;
+}
+.details-page .container .aside-left .details-box .content{
+   margin-bottom: 2rem;
+   display: grid;
+   grid-template-columns: 50% 50%;
+}
+.details-page .container .aside-left .content i{
+  color:#274ABB
+}
+.details-page .container .aside-left .reviews-box{
+    min-height: 20vh;
+   background-color: #FFF;
+   padding: 2rem;
+   box-shadow: 0 0 11px rgba(33,33,33,.2); 
+   margin-bottom: 1rem;
+}
+.details-page .container .aside-left .reviews-box i{
+   color:orange;
+}
+
+
+.details-page .container .aside-left  .review-rate{
+   margin-bottom: .5rem;
+}
+.details-page .container .aside-left .add-review{
+   padding: 2rem;
+   min-height: 20vh;
+   background-color: #FFF;
+   padding: 2rem;
+   box-shadow: 0 0 11px rgba(33,33,33,.2); 
+   margin-bottom: 1rem;
+
+}
+
+.details-page .container .aside-right .owner-infor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    background-color: #FFF;
+    padding: 2rem;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    margin-top:15rem;
+}
+.details-page .container .aside-right .owner-infor .title{
+    width:120px;
+}
+.details-page .container .aside-right .owner-infor .infor {
+    margin-top: 1rem;
+}
+
+

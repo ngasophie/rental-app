@@ -1,0 +1,24 @@
+.list-post-page{
+    background-color: #F7F7F7;
+    width: 100vw;
+   margin-top: 1rem;
+}
+.list-post-page .container .title{
+    font-size: 1.8rem;
+    color:#000;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+.list-post-page .container .list-page-body{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap:1rem
+}
+.list-post-page .container .card-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.list-page-body .aside-right .recent-posts{
+    margin-left: 2rem;
+    margin-top: 4rem;
+}

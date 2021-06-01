@@ -1,0 +1,15 @@
+
+ .carousel-list .carousel{
+     max-height:40vh;
+ }
+ .carousel-list .carousel img{
+     width: 100%;
+     height: 100%;
+ }
+ .carousel-list{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-gap:1rem;
+ }
+ 
+ 
